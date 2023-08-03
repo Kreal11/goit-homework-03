@@ -1,0 +1,351 @@
+/* CSS Custom Properties  */
+
+/* Colors */
+
+:root {
+  --iris-color: #4d5ae5;
+  --navyblue-color: #2e2f42;
+  --slate-color: #434455;
+  --white-color: #fff;
+  --ocean-hover-focus: #404bbf;
+  --cloud-color: #f4f4fd;
+}
+
+/* Header of main page and portfolio  */
+
+.header-main-page {
+  background-color: var(--white-color);
+}
+
+/* Navigation */
+
+.link-logo {
+  color: var(--iris-color);
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.accent-studio-header {
+  color: var(--navyblue-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.link:focus {
+  color: var(--ocean-hover-focus);
+}
+
+.link-navigation {
+  color: var(--navyblue-color);
+  text-decoration: none;
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.link-navigation:hover {
+  color: var(--ocean-hover-focus);
+  text-decoration: none;
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.link-navigation:focus {
+  color: var(--ocean-hover-focus);
+
+  /* Body Medium */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Contact information */
+
+.contact-information {
+  font-style: normal;
+}
+
+.link-contacts {
+  text-decoration: none;
+  color: var(--slate-color);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.link-contacts:hover {
+  color: var(--ocean-hover-focus);
+}
+
+.link-contacts:focus {
+  color: var(--ocean-hover-focus);
+}
+
+/* Body of main page  */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--slate-color);
+  background-color: var(--white-color);
+}
+
+.main-header-hero {
+  background-color: var(--navyblue-color);
+}
+
+.main-header-text {
+  color: var(--white-color);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+.order-service-button {
+  background-color: var(--iris-color);
+  color: var(--white-color);
+  cursor: pointer;
+  /* Button Text */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.order-service-button:hover {
+  background-color: var(--ocean-hover-focus);
+}
+
+.order-service-button:focus {
+  background-color: var(--ocean-hover-focus);
+}
+
+/* Advantages and Competences  */
+
+.advantages .competences {
+  background-color: var(--white-color);
+}
+
+/* Advantages */
+
+.advantage {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.advantage-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Competences */
+
+.competences-header-text {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/* Our Team  */
+
+.team-members {
+  background-color: var(--cloud-color);
+}
+
+.team-members-header {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.member-item {
+  background-color: var(--white-color);
+}
+
+.member {
+  color: var(--navyblue-color);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.member-position {
+  color: var(--slate-color);
+  text-align: center;
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Body of portfolio  */
+
+.main-of-portfolio {
+  background-color: var(--white-color);
+}
+
+/* Buttons of portfolio  */
+
+.portfolio-buttons-list {
+  list-style-type: none;
+}
+
+.portfolio-button {
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
+  text-align: center;
+  cursor: pointer;
+  /* Button Text */
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.portfolio-button:hover {
+  color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
+}
+
+.portfolio-button:focus {
+  color: var(--white-color);
+  background-color: var(--ocean-hover-focus);
+}
+
+/* Portfolio cases  */
+
+.portfolio-cases-list {
+  list-style-type: none;
+}
+
+.portfolio-case {
+  color: var(--navyblue-color);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.portfolio-case-descr {
+  color: var(--slate-color);
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Footer of the main page and portfolio */
+
+.footer {
+  background-color: var(--navyblue-color);
+}
+
+.accent-studio-footer {
+  color: var(--cloud-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.credo {
+  color: var(--cloud-color);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
