@@ -364,7 +364,7 @@ body {
 
 .team-members {
   background-color: var(--cloud-color);
-  padding: 0px 156px 0px 156px;
+  padding: 120px 0;
 }
 
 .team-members-header {
@@ -385,6 +385,7 @@ body {
 .member-item {
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
 }
 
 .member {
@@ -413,10 +414,6 @@ body {
   letter-spacing: 0.32px;
 }
 
-.container-members {
-  padding: 120px 0px;
-}
-
 .list-members {
   display: flex;
   justify-content: center;
@@ -429,7 +426,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin: 32px 0px;
+  padding: 32px 0;
+}
+
+.member {
+  margin-bottom: 8px;
 }
 
 /* Body of portfolio  */
