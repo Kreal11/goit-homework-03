@@ -343,6 +343,10 @@ body {
 
 /* Competences */
 
+.competences {
+  padding-bottom: 120px;
+}
+
 .competences-header-text {
   color: var(--navyblue-color);
   text-align: center;
@@ -360,8 +364,12 @@ body {
 
 .list-competences {
   display: flex;
-  margin-bottom: 120px;
   justify-content: center;
+  gap: 24px;
+}
+
+.competence-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /* Our Team  */
