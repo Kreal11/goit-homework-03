@@ -26,14 +26,14 @@ ol {
 
 .page-container {
   /* min-height: 100vh; */
-  display: flex;
-  flex-direction: column;
-  width: 1158px;
-  margin: 0 auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* width: 1158px; */
+  /* margin: 0 auto; */
   /* margin-left: auto;
   margin-right: auto; */
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .full-size-page {
@@ -47,6 +47,17 @@ ol {
 .container-header {
   display: flex;
   justify-content: center;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 main {
@@ -107,8 +118,6 @@ main {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  display: inline-flex;
-  align-items: center;
   flex-shrink: 0;
   margin-right: 76px;
   /* outline: 2px solid tomato; */
@@ -142,8 +151,8 @@ main {
 }
 
 .list-navigation {
-  display: inline-flex;
-  align-items: flex-start;
+  display: flex;
+  align-items: center;
   gap: 40px;
   /* outline: 3px solid tomato; */
 }
@@ -158,6 +167,7 @@ main {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 
 .link-navigation:hover {
@@ -213,10 +223,7 @@ main {
 .list-contacts {
   display: flex;
   margin-left: 332px;
-}
-
-.mail-link {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 /* Body of main page  */
@@ -274,6 +281,9 @@ body {
   letter-spacing: 0.64px;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .order-service-button:hover {
