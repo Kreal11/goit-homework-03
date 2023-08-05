@@ -28,12 +28,12 @@ ol {
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 1158px;
+  margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: 1px solid var(--cornflower);
 }
 
 .full-size-page {
@@ -90,7 +90,9 @@ main {
   align-items: center;
   flex-shrink: 0;
   width: 1158px;
+  margin: 0 auto;
   padding: 24px 0px;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 /* Navigation */
