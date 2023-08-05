@@ -441,6 +441,11 @@ body {
 
 /* Buttons of portfolio  */
 
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .container-portfolio-buttons {
   padding-top: 96px;
   padding-bottom: 72px;
@@ -452,7 +457,9 @@ body {
 .portfolio-buttons-list {
   list-style-type: none;
   display: flex;
+  justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
   min-width: 586px;
   /* outline: 2px solid tomato; */
 }
@@ -477,11 +484,13 @@ body {
 .portfolio-button:hover {
   color: var(--white-color);
   background-color: var(--ocean-hover-focus);
+  border: 1px solid transparent;
 }
 
 .portfolio-button:focus {
   color: var(--white-color);
   background-color: var(--ocean-hover-focus);
+  border: 1px solid transparent;
 }
 
 /* Portfolio cases  */
