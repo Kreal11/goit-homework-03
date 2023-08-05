@@ -302,6 +302,9 @@ body {
 
 .advantages {
   padding: 120px 0;
+}
+
+.advantage-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -317,6 +320,7 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .advantage-descr {
