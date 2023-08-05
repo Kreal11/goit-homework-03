@@ -512,7 +512,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 8px;
   align-self: stretch;
   border-right: 1px solid var(--cornflower);
   border-bottom: 1px solid var(--cornflower);
@@ -529,6 +528,7 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .portfolio-case-descr {
