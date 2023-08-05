@@ -495,43 +495,15 @@ body {
 
 /* Portfolio cases  */
 
-.portfolio-cases-list {
-  list-style-type: none;
-  /* display: flex; */
-  max-width: 1158px;
-  padding: 0px 0px 120px 0px;
+.list-cases {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
-.case {
-  display: flex;
-  width: 360px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-
-.row-one {
-  display: flex;
-  justify-content: center;
-  max-width: 1158px;
-  gap: 24px;
-  margin-bottom: 48px;
-}
-
-.row-two {
-  display: flex;
-  justify-content: center;
-  max-width: 1158px;
-  gap: 24px;
-  margin-bottom: 48px;
-}
-
-.row-three {
-  display: flex;
-  justify-content: center;
-  max-width: 1158px;
-  gap: 24px;
+.case-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .case-text {
