@@ -222,7 +222,7 @@ body {
   background-color: var(--white-color);
 }
 
-.main-header-hero {
+.main-header-section {
   background-color: var(--navyblue-color);
   width: 100%;
   flex-shrink: 0;
@@ -298,7 +298,7 @@ body {
 
 /* Advantages */
 
-.advantage {
+.advantage-header {
   color: var(--navyblue-color);
 
   /* Header 3 */
